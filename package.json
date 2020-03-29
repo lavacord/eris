@@ -1,6 +1,6 @@
 {
   "name": "@lavacord/eris",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The eris version of the lavacord library",
   "main": "dist/index",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lavacord/discord.js.git"
+    "url": "git+https://github.com/lavacord/eris.git"
   },
   "keywords": [
     "bot",
@@ -30,9 +30,9 @@
   "author": "Jacz",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/lavacord/discord.js/issues"
+    "url": "https://github.com/lavacord/eris/issues"
   },
-  "homepage": "https://github.com/MrJacz/discord.js#readme",
+  "homepage": "https://github.com/MrJacz/eris#readme",
   "dependencies": {
     "lavacord": "latest"
   },
