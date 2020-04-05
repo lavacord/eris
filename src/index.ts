@@ -1,10 +1,14 @@
-/* eslint-disable @typescript-eslint/ban-ts-ignore */
 import { Manager as LavacordManager, LavalinkNodeOptions, DiscordPacket, ManagerOptions } from "lavacord";
 import { Client as ErisClient } from "eris";
 
 export class Manager extends LavacordManager {
     public constructor(readonly client: ErisClient, nodes: LavalinkNodeOptions[], options?: ManagerOptions) {
         super(nodes, options || {});
+        this.send = packet => {
+            const guild = this.client.guilds.get(packet.d.guild_id);
+            if (!guild) return;
+            return guild.shard.sendWS(packet.op, packet.d);
+        };
 
         client
             .once("ready", () => {
@@ -27,10 +31,4 @@ export class Manager extends LavacordManager {
 
     }
 
-    // @ts-ignore
-    public send(packet: DiscordPacket): void {
-        const guild = this.client.guilds.get(packet.d.guild_id);
-        if (!guild) return;
-        return guild.shard.sendWS(packet.op, packet.d);
-    }
 }
