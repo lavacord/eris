@@ -37,15 +37,15 @@
     "lavacord": "latest"
   },
   "devDependencies": {
-    "@types/node": "^13.11.0",
-    "@types/ws": "^7.2.3",
-    "@typescript-eslint/eslint-plugin": "^2.26.0",
-    "@typescript-eslint/parser": "^2.26.0",
+    "@types/node": "^13.13.12",
+    "@types/ws": "^7.2.6",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
     "eris": "^0.11.2",
     "eslint": "^6.8.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.5"
   },
   "peerDependencies": {
     "eris": "^0.11.2"
