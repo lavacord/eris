@@ -1,11 +1,8 @@
 [![Discord](https://discordapp.com/api/guilds/323779330033319941/embed.png)](https://discord.gg/wXrjZmV)
-[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/@lavacord/eris)
-[![npm downloads](https://img.shields.io/npm/dt/@lavacord/eris.svg?maxAge=3600)](https://www.npmjs.com/package/@lavacord/eris)
-[![NPM version](https://badge.fury.io/js/@lavacord/eris.svg)](http://badge.fury.io/js/@lavacord/eris)
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-[![dependencies Status](https://david-dm.org/lavacord/eris/status.svg)](https://david-dm.org/lavacord/eris)
-[![devDependencies Status](https://david-dm.org/lavacord/eris/dev-status.svg)](https://david-dm.org/lavacord/eris?type=dev)
-[![NPM](https://nodei.co/npm/@lavacord/eris.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@lavacord/eris)
+[![npm (scoped)](https://img.shields.io/npm/v/@lavacord/eris?label=npm%20version)](https://www.npmjs.com/package/@lavacord/eris)
+[![npm downloads](https://img.shields.io/npm/dt/@lavacord/eris.svg?label=total%20downloads)](https://www.npmjs.com/package/@lavacord/eris)
+[![GitHub](https://img.shields.io/github/license/lavacord/eris)](https://github.com/lavacord/eris/)
+[![Depfu](https://badges.depfu.com/badges/90e84635d1c58b748c3d5ef857533878/overview.svg)](https://depfu.com/github/lavacord/eris?project_id=11808)
 
 # @Lavacord/eris
 A simple and easy to use lavalink wrapper for eris that uses lavacord underneath
